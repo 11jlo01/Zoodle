@@ -217,7 +217,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.05809307, y: -2.4021583}
+  m_Offset: {x: 0.03401631, y: -2.4406815}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -228,7 +228,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.853777, y: 1.2087804}
+  m_Size: {x: 2.882669, y: 1.2858267}
   m_EdgeRadius: 0
 --- !u!50 &148465711
 Rigidbody2D:
@@ -365,8 +365,11 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
   m_Points:
-  - {x: -2.9587789, y: 0.70785713}
-  - {x: 2.8773465, y: 0.6741546}
+  - {x: -2.4457386, y: 0.70785713}
+  - {x: -1.6131389, y: 0.64822346}
+  - {x: -0.016253782, y: 0.43007734}
+  - {x: 1.6723052, y: 0.6669319}
+  - {x: 2.326304, y: 0.6896131}
 --- !u!212 &612768813
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -476,8 +479,13 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
   m_Points:
-  - {x: -2.1010652, y: 1.256366}
-  - {x: 2.010296, y: 1.3174146}
+  - {x: -2.5452657, y: 1.256366}
+  - {x: -1.504451, y: 1.3747355}
+  - {x: -0.36723253, y: 1.3959882}
+  - {x: 0.66100717, y: 1.4225197}
+  - {x: 1.3032265, y: 1.3696594}
+  - {x: 1.6029202, y: 1.396518}
+  - {x: 2.4248838, y: 1.3174146}
 --- !u!212 &976706482
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -529,7 +537,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 976706480}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.19, y: -1.5610001, z: 0}
+  m_LocalPosition: {x: 0.19, y: -1.566, z: 0}
   m_LocalScale: {x: 0.20147923, y: 0.18517962, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -638,10 +646,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   platformPrefab: {fileID: 976706480}
-  numberOfPlatforms: 200
+  numberOfPlatforms: 500
   levelWidth: 5
-  minY: 0.3
-  maxY: 1.4
+  minY: 0.5
+  maxY: 1.6
 --- !u!4 &1979478133
 Transform:
   m_ObjectHideFlags: 0

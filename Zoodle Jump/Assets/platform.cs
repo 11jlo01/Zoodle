@@ -20,5 +20,5 @@ public class platform : MonoBehaviour {
         }
 
         
-    } //Då ett objekt krockar med ett annat så utförs koden inom måsvingarna (funktionen)
+    } //Då ett objekt krockar med ett annat så utförs koden inom måsvingarna (funktionen). Denna kod ger plattformarna (och studsmattorna) sina egenskaper.
 }

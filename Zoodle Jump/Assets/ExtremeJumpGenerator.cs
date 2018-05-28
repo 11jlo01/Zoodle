@@ -30,5 +30,5 @@ public class ExtremeJumpGenerator : MonoBehaviour {
     {
 
     }
-}
+} //ExtremeJumpGenerator fungerar på samma sätt som LevelGenerator gör. Skillnaden är att det nu är objektet, plattformen, studsmatta som genereras.
 
