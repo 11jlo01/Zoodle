@@ -109,7 +109,7 @@ MonoBehaviour:
   m_MinSize: {x: 887, y: 492}
   m_MaxSize: {x: 16012, y: 14042}
   vertical: 0
-  controlID: 1091
+  controlID: 982
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -133,7 +133,7 @@ MonoBehaviour:
   m_MinSize: {x: 610, y: 492}
   m_MaxSize: {x: 12010, y: 14042}
   vertical: 1
-  controlID: 1092
+  controlID: 983
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -157,7 +157,7 @@ MonoBehaviour:
   m_MinSize: {x: 610, y: 221}
   m_MaxSize: {x: 12010, y: 4021}
   vertical: 0
-  controlID: 1093
+  controlID: 984
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -206,7 +206,7 @@ MonoBehaviour:
   m_MinSize: {x: 408, y: 221}
   m_MaxSize: {x: 8008, y: 4021}
   vertical: 0
-  controlID: 1094
+  controlID: 985
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -417,7 +417,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 50fbffff00000000
+    m_ExpandedIDs: 50fbffff000000004228000078280000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -589,8 +589,7 @@ MonoBehaviour:
   m_LastFolders:
   - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\00mka01\Desktop\Programmering projekt\GitHub\Zoodle\Zoodle
-    Jump
+  m_LastProjectPath: C:\Users\11jlo01\Documents\GitHub\Zoodle\Zoodle Jump
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
