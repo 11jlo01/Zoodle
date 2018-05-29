@@ -20,10 +20,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 930
-  m_MinSize: {x: 885, y: 471}
-  m_MaxSize: {x: 16010, y: 14021}
+  m_MinSize: {x: 885, y: 492}
+  m_MaxSize: {x: 16010, y: 14042}
   vertical: 0
-  controlID: 5994
+  controlID: 916
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -121,10 +121,10 @@ MonoBehaviour:
     y: 0
     width: 1531
     height: 930
-  m_MinSize: {x: 608, y: 471}
-  m_MaxSize: {x: 12008, y: 14021}
+  m_MinSize: {x: 608, y: 492}
+  m_MaxSize: {x: 12008, y: 14042}
   vertical: 1
-  controlID: 5995
+  controlID: 893
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -148,7 +148,7 @@ MonoBehaviour:
   m_MinSize: {x: 608, y: 221}
   m_MaxSize: {x: 12008, y: 4021}
   vertical: 0
-  controlID: 5996
+  controlID: 894
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -167,8 +167,8 @@ MonoBehaviour:
     y: 0
     width: 268
     height: 562
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 6}
   m_Panes:
   - {fileID: 6}
@@ -203,9 +203,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 9e280000
-    m_LastClickedID: 10398
-    m_ExpandedIDs: eafaffff00000000f6280000
+    m_SelectedIDs: 7c280000
+    m_LastClickedID: 10364
+    m_ExpandedIDs: 0afbffff00000000ec280000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -251,7 +251,7 @@ MonoBehaviour:
   m_MinSize: {x: 408, y: 221}
   m_MaxSize: {x: 8008, y: 4021}
   vertical: 0
-  controlID: 5997
+  controlID: 819
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -425,8 +425,8 @@ MonoBehaviour:
     y: 562
     width: 1531
     height: 368
-  m_MinSize: {x: 230, y: 250}
-  m_MaxSize: {x: 10000, y: 10000}
+  m_MinSize: {x: 232, y: 271}
+  m_MaxSize: {x: 10002, y: 10021}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -472,20 +472,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets
+    - Assets/Scripts
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\00mka01\Desktop\Programmering projekt\GitHub\Zoodle\Zoodle
-    Jump
+  m_LastProjectPath: C:\Users\11jlo01\Documents\GitHub\Zoodle\Zoodle Jump
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: d4270000
-    m_LastClickedID: 10196
-    m_ExpandedIDs: 00000000d427000000ca9a3bffffff7f
+    m_SelectedIDs: 28290000
+    m_LastClickedID: 10536
+    m_ExpandedIDs: 00000000cc27000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -513,7 +512,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000d427000000ca9a3bffffff7f
+    m_ExpandedIDs: 00000000cc27000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -538,8 +537,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 9e280000
-    m_LastClickedInstanceID: 10398
+    m_SelectedInstanceIDs: 7c280000
+    m_LastClickedInstanceID: 10364
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c62300007e27000076280000
     m_RenameOverlay:
@@ -613,8 +612,8 @@ MonoBehaviour:
     y: 0
     width: 389
     height: 930
-  m_MinSize: {x: 277, y: 71}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}

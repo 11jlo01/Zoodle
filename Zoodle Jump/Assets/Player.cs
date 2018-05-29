@@ -5,7 +5,8 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D))] //Säkerställer att det alltid finns en Rigidbody2D-komponent kopplad till koden
 public class Player : MonoBehaviour {
 
-    public float movementSpeed = 10f; //Gör det möjligt att bestämma/ändra karaktärens hastighet.
+    public float movementSpeed = 10f;//Gör det möjligt att bestämma/ändra karaktärens hastighet.
+    public Vector3 startPos;
 
     Rigidbody2D rb; //Objektet Rigidbody2D också kallad rb
 
@@ -30,5 +31,14 @@ public class Player : MonoBehaviour {
         //alltså kan samma kodslinga nu användas igen, man kan säga att den blir nollställd. 
         //Ny kod behövs allstå inte skrivas för varje gång karaktären flyttar sig igen. 
     }
+
+    void OnTriggerEnter2D(Collider2D col)
+    {
+        if (col.gameObject.tag == "DeadZone")
+        {
+            //GetComponent<Rigidbody2D>() = false; 
+        }
+    }
+   
 }
 //Scriptet player justerar spelfigurens hastighet och gör det möjligt att styra karaktären i sidled med piltangenterna.
