@@ -4,7 +4,14 @@ using UnityEngine;
 
 public class platform : MonoBehaviour {
 
+    public AudioSource aAudio; //Variabel ljud
+
     public float jumpForce = 10f; //Hur stor kraften är som ger studsen
+
+    void Start()
+    {
+        aAudio = GetComponent<AudioSource>(); // Hämtar ljudet
+    }
 
 	void OnCollisionEnter2D(Collision2D collision) //Ger information om vad ett som händer med då ett objekt krockar med ett annat objekt 
     {
@@ -16,9 +23,11 @@ public class platform : MonoBehaviour {
                           Vector2 velocity = rb.velocity;
                           velocity.y = jumpForce;
                           rb.velocity = velocity; //Adderar kraft som ger studs uppåt
-                    }
+                GetComponent<AudioSource>(); //Spelar ljud då något krockar med plattformarna
+            }
         }
 
+        aAudio.Play(); //Spelar ljudet då en kollision äger rum
         
     } //Då ett objekt krockar med ett annat så utförs koden inom måsvingarna (funktionen). Denna kod ger plattformarna (och studsmattorna) sina egenskaper.
 }
