@@ -17,6 +17,7 @@ public class platform : MonoBehaviour {
     {
         if (collision.relativeVelocity.y <= 0f) //Collision är en variabel som innehåller information om kollisionen (hastighet, typ av objekt osv)
         {
+            Debug.Log("Krockar");
             Rigidbody2D rb = collision.collider.GetComponent<Rigidbody2D>(); //Objekten som kolliderar är av typen Rigidbody2D
                 if (rb != null) //Om objektet av typen Rigidbody2D inte är lika med null
                     {

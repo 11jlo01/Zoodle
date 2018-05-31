@@ -32,13 +32,13 @@ public class Player : MonoBehaviour {
         //Ny kod behövs allstå inte skrivas för varje gång karaktären flyttar sig igen. 
     }
 
-    void OnTriggerEnter2D(Collider2D col)
-    {
-        if (col.gameObject.tag == "DeadZone")
-        {
-            //GetComponent<Rigidbody2D>() = false; 
-        }
-    }
+    //void OnTriggerEnter2D(Collider2D col)
+    //{
+    //    if (col.gameObject.tag == "DeadZone")
+    //    {
+    //        //GetComponent<Rigidbody2D>() = false; 
+    //    }
+    //}
    
 }
 //Scriptet player justerar spelfigurens hastighet och gör det möjligt att styra karaktären i sidled med piltangenterna.
